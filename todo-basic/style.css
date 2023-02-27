@@ -35,11 +35,14 @@ form input, form textarea {
 
 form input {
 	font-weight: bold;
+	border-radius: 5px;
+    background-color: rgb(213, 213, 213);
 }
 
 form textarea {
 	height: 200px;
 	resize: none;
+	background-color: antiquewhite;
 }
 
 form button {
@@ -50,10 +53,12 @@ form button {
 	border-radius: 5px;
 	cursor: pointer;
 	font-size: 16px;
+	width:10vw ;
+	margin: auto;
 }
 
 form button:hover {
-	background-color: #3E8E41;
+	background-color: #1c681d;
 }
 
 ul {
@@ -61,19 +66,22 @@ ul {
 }
 
 li {
-	margin: 10px;
+	width: 50vw;
+	margin: 10px auto;
 	padding: 10px;
-	background-color: #f2f2f2;
+	background-color: #d0d0d0;
 	border-radius: 5px;
 }
 
 li h2 {
 	font-size: 20px;
 	margin-bottom: 10px;
+	margin: 10px;
 }
 
 li p {
 	font-size: 16px;
+	margin: 10px;
 }
 
 li button {
